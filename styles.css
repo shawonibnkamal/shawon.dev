@@ -23,7 +23,7 @@ h2 {
 }
 
 .introduction {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .introduction .row {
@@ -33,14 +33,16 @@ h2 {
 
 .pic-container {
   text-align: center;
+  max-height: 300px;
+  max-width: 300px;
   margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 .pic {
   border-radius: 500px;
   border: 15px solid rgb(236, 236, 236);
-  max-height: 300px;
-  max-width: 300px;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -72,4 +74,10 @@ h2 {
 
 .info-list i {
   margin-right: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
 }
