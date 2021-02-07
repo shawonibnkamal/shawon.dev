@@ -64,6 +64,7 @@ h2 {
 .links a:hover {
   background-color: rgb(218, 218, 218);
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .info-list {
