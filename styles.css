@@ -67,6 +67,10 @@ h2 {
   text-decoration: none;
 }
 
+a.dark-link:hover {
+  background-color: #fff !important;
+}
+
 .info-list {
   list-style: none;
   margin-left: -38px;
