@@ -22,6 +22,11 @@ h2 {
   font-size: 25px;
 }
 
+h3 {
+  color: rgb(78, 78, 78);
+  font-size: 18px;
+}
+
 .introduction {
   min-height: 100vh;
 }
@@ -31,7 +36,7 @@ h2 {
   width: 100%;
 }
 
-.pic-container {
+.portrait-container {
   text-align: center;
   max-height: 300px;
   max-width: 300px;
@@ -39,7 +44,7 @@ h2 {
   margin-top: 20px;
 }
 
-.pic {
+.portrait {
   border-radius: 500px;
   border: 15px solid rgb(236, 236, 236);
   width: 100%;

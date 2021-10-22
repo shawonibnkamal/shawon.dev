@@ -83,8 +83,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <div class="pic-container">
-              <img class="pic" src="pic.jpg" />
+            <div class="portrait-container">
+              <img class="portrait" src="portrait.jpg" />
             </div>
           </div>
           <div class="col-md-8">
@@ -113,7 +113,7 @@
                 <button
                   class="btn btn-primary btn"
                   data-toggle="modal"
-                  data-target="#exampleModalLong"
+                  data-target="#portfolioModal"
                 >
                   View my portfolio
                 </button>
@@ -128,16 +128,16 @@
     <!-- Modal -->
     <div
       class="modal fade"
-      id="exampleModalLong"
+      id="portfolioModal"
       tabindex="-1"
       role="dialog"
-      aria-labelledby="exampleModalLongTitle"
+      aria-labelledby="portfolioModalTitle"
       aria-hidden="true"
     >
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Portfolio</h5>
+            <h5 class="modal-title" id="portfolioModalTitle">Portfolio</h5>
             <button
               type="button"
               class="close"
@@ -149,6 +149,112 @@
           </div>
           <div class="modal-body">
             <!-- Portfolio content start -->
+
+            <!-- Content list start -->
+            <h3>Content</h3>
+            <ul>
+              <!-- Large-Scale web applications start -->
+              <li>
+                Large-Scale Web Applications
+                <ul>
+                  <li><a href="#share-notes">Share Notes</a></li>
+                  <li><a href="#yaffle">Yaffle</a></li>
+                  <li><a href="#portfalio">Portfal.io</a></li>
+                  <li><a href="#shawon-notes">Shawon Notes</a></li>
+                </ul>
+              </li>
+
+              <!-- Artificial Intelligence -->
+              <li>
+                Artificial Intelligence
+                <ul>
+                  <li>
+                    <a href="#starcraft-competitive-ai-bot">
+                      Starcraft Competitive AI bot
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#reinforcement-learning-path-finder">
+                      Reinforcement Learning Path Finder
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#game-ai-procedural-content-generation">
+                      Game AI: Procedural Content Generation
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#multi-armed-bandit---reinforcement-learning">
+                      Multi-armed bandit - Reinforcement Learning
+                    </a>
+                  </li>
+                  <li><a href="#connect-4-game-ai">Connect-4 Game AI</a></li>
+                  <li>
+                    <a href="#distance-map-grid-and-vector-field">
+                      Distance Map Grid and Vector Field
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#game-ai-tron"> Game AI: Tron </a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Games -->
+              <li>
+                Games
+                <ul>
+                  <li><a href="#space-shooter-2d">Space Shooter 2D</a></li>
+                  <li><a href="#blokus-game">Blokus Game</a></li>
+                  <li><a href="#chomp-game">Chomp Game</a></li>
+                </ul>
+              </li>
+
+              <!-- Data Visualizations/Engineering -->
+              <li>
+                Data Visualizations/Engineering
+                <ul>
+                  <li>
+                    <a
+                      href="#data-visualization-of-yaffle-researchers-and--contributers"
+                    >
+                      Data Visualization of Yaffle Researchers and Contributers
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Small-Scale web applications -->
+              <li>
+                Small-Scale Web Applications
+                <ul>
+                  <li>
+                    <a href="#ecommerce-web-scraper">Ecommerce Web Scraper</a>
+                  </li>
+                  <li><a href="#quote-generator">Quote-generator</a></li>
+                  <li><a href="#wikiviewer">WikiViewer</a></li>
+                  <li><a href="#weather-app">Weather App</a></li>
+                  <li><a href="#twitch-streamers">Twitch Streamers</a></li>
+                </ul>
+              </li>
+
+              <!-- Image processing -->
+              <li>
+                Image Processing
+                <ul>
+                  <li>
+                    <a href="#noise-reduction-filters"
+                      >Noise Reduction Filters</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- End of content list-->
+
+            <!-- Share Notes -->
+            <hr />
             <h2 id="share-notes">Share Notes</h2>
             <img
               src="portfolio/images/sharenotes-2.png"
@@ -189,6 +295,8 @@
               Memorial University.
             </p>
 
+            <!-- Starcraft -->
+            <hr />
             <h2 id="starcraft-competitive-ai-bot">
               Starcraft Competitive AI bot
             </h2>
@@ -213,6 +321,8 @@
               proper build order, and timing attacks.
             </p>
 
+            <!-- Game AI -->
+            <hr />
             <h2 id="game-ai-procedural-content-generation">
               Game AI: Procedural Content Generation
             </h2>
@@ -234,6 +344,8 @@
               Cellular Automata built using C++, SFML, and Visual Studio.
             </p>
 
+            <!-- Portfalio -->
+            <hr />
             <h2 id="portfalio">Portfalio</h2>
             <img src="portfolio/images/portfalio.jpg" style="max-width: 100%" />
             <p>
@@ -242,6 +354,8 @@
             </p>
             <p>Built using REACT, Laravel and MySQL.</p>
 
+            <!-- RL -->
+            <hr />
             <h2 id="reinforcement-learning-path-finder">
               Reinforcement Learning Path Finder
             </h2>
@@ -252,17 +366,17 @@
             <p>Finds the closest path between each nodes using Q-Learning.</p>
             <p>Built using Javascript.</p>
 
-            <h2 id="game-ai-procedural-content-generation">
-              Space Shooter 2D
-            </h2>
+            <!-- Space Shooter 2D -->
+            <hr />
+            <h2 id="space-shooter-2d">Space Shooter 2D</h2>
             <img
               src="portfolio/images/spaceshooter.gif"
               style="max-width: 100%"
             />
-            <p>
-              Built using SFML and C++. 
-            </p>
+            <p>Built using SFML and C++.</p>
 
+            <!-- Blokus -->
+            <hr />
             <h2 id="blokus-game">Blokus Game</h2>
             <img src="portfolio/images/Blokus.JPG" style="max-width: 100%" />
             <p>
@@ -271,6 +385,8 @@
               also turn on visual aid toggle if they are colorblind.
             </p>
 
+            <!-- Chomp -->
+            <hr />
             <h2 id="chomp-game">Chomp Game</h2>
             <img src="portfolio/images/Chomp.JPG" style="max-width: 100%" />
             <p>
@@ -278,6 +394,8 @@
               last user to eat the soap(pink) grid will lose.
             </p>
 
+            <!-- Ecommerce -->
+            <hr />
             <h2 id="ecommerce-web-scraper">Ecommerce Web Scraper</h2>
             <img
               src="portfolio/images/webscraper.jpg"
@@ -297,6 +415,8 @@
               Built as part of a group project of 3 using node.js and mongoDB.
             </p>
 
+            <!-- Yaffle -->
+            <hr />
             <h2 id="yaffle">Yaffle</h2>
             <img src="portfolio/images/yaffle.jpg" style="max-width: 100%" />
             <p><a href="https://yaffle.ca">Website Link</a></p>
@@ -305,10 +425,14 @@
               collaboration site for researchers and project funders.
             </p>
 
+            <!-- Connect 4 -->
+            <hr />
             <h2 id="connect-4-game-ai">Connect-4 Game AI</h2>
             <img src="portfolio/images/connect-4.jpg" style="max-width: 100%" />
             <p>Built the AI for Connect 4 game using Mini-Max algorithm.</p>
 
+            <!-- Distance Map -->
+            <hr />
             <h2 id="distance-map-grid-and-vector-field">
               Distance Map Grid and Vector Field
             </h2>
@@ -321,6 +445,8 @@
               it to compute a vector field to point to the direction.
             </p>
 
+            <!-- Noise reduction -->
+            <hr />
             <h2 id="noise-reduction-filters">Noise Reduction Filters</h2>
             <img
               src="portfolio/images/image-filter.jpg"
@@ -330,6 +456,9 @@
               Demonstrating Mean filter, Salt and pepper filter and Gaussian
               blur using Python.
             </p>
+
+            <!-- Shawon Notes -->
+            <hr />
             <h2 id="shawon-notes">Shawon Notes</h2>
             <img
               src="portfolio/images/shawonnotes-2.jpg"
@@ -342,9 +471,15 @@
               views each month and is the most popular IGCSE/IAL revision
               website in Bangladesh.
             </p>
+
+            <!-- Tron -->
+            <hr />
             <h2 id="game-ai-tron">Game AI: Tron</h2>
             <img src="portfolio/images/tron.jpg" style="max-width: 100%" />
             <p>Tron game AI bot built using C++ and SFML.</p>
+
+            <!-- Data visualization -->
+            <hr />
             <h2 id="data-visualization-of-yaffle-researchers-and--contributers">
               Data Visualization of Yaffle Researchers and Contributers
             </h2>
@@ -356,6 +491,9 @@
               Visualization of Yaffle researchers and contributors using D3.js
               and the projects they collaborated on.
             </p>
+
+            <!-- RL -->
+            <hr />
             <h2 id="multi-armed-bandit---reinforcement-learning">
               Multi-armed bandit - Reinforcement Learning
             </h2>
@@ -364,6 +502,9 @@
               Implemented reinforcement learning to maximize reward in the
               multi-armed bandit problem.
             </p>
+
+            <!-- Quote -->
+            <hr />
             <h2 id="quote-generator">Quote-generator</h2>
             <img
               src="portfolio/images/quote-generator.jpg"
@@ -372,6 +513,9 @@
             <p>
               A JS application that retrieves random quotes by famous people.
             </p>
+
+            <!-- Wiki -->
+            <hr />
             <h2 id="wikiviewer">WikiViewer</h2>
             <img
               src="portfolio/images/wiki-viewer.jpg"
@@ -381,6 +525,9 @@
               A JS application that uses the wikipedia search api to retrieve
               articles based on keywords.
             </p>
+
+            <!-- Weather -->
+            <hr />
             <h2 id="weather-app">Weather App</h2>
             <img
               src="portfolio/images/weather-app.jpg"
@@ -390,6 +537,9 @@
               Uses the open weather api to display weather of the user's current
               location.
             </p>
+
+            <!-- Twitch -->
+            <hr />
             <h2 id="twitch-streamers">Twitch Streamers</h2>
             <img
               src="portfolio/images/twitch-api.jpg"
