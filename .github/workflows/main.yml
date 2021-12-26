@@ -17,8 +17,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: actions/checkout@v2
-
       - name: executing remote ssh commands
         uses: appleboy/ssh-action@master
         with:
@@ -28,4 +26,4 @@ jobs:
           use_insecure_cipher: true
           script: |
             cd shawon.dev
-            sudo git pull
+            git pull
