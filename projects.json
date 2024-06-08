@@ -1,0 +1,202 @@
+{
+	"projects": [
+		{
+			"title": "Doclin",
+			"startDate": "2023-01-01",
+			"websiteUrl": "https://doclin.dev",
+			"description": "Doclin is a real-time commenting and discussion extension for VS Code.",
+			"images": ["https://github.com/doclin-dev/landingpage-build/blob/main/assets/doclinDemo.gif?raw=true", "https://github.com/doclin-dev/landingpage-build/blob/main/assets/doclinDemo.gif?raw=true"],
+			"featured": true
+		},
+		{
+			"title": "Yaffle",
+			"startDate": "2020-03-01",
+			"endDate": "2022-05-01",
+			"websiteUrl": "https://yaffle.ca",
+			"description": "Rebuilt Yaffle as part of Powered by b project. Yaffle is a collaboration site for researchers and project funders.",
+			"images": ["images/yaffle.jpg"],
+			"featured": true
+		},
+		{
+            "title": "Share Notes",
+            "startDate": "2019-12-01",
+            "endDate": "2022-12-01",
+            "websiteUrl": "https://sharenotes.org",
+            "description": "The successor of Shawon Notes which is an educational resource platform targeting the British curriculum of high schools reaching over 100k+ monthly page views. <br/> Built in REST API format using React and Laravel to ensure scalability and modularity as I continue to add more features and scale up the project. The workflow is managed through github actions and docker and deployed in Linux instances in AWS, and the files are managed through S3 bucket. <br/> Users can registers their own account, customize their profile and create courses and upload materials as they wish. They can create directories, upload videos, or any kind of documents. Received Spark Fund for getting started with this project from Memorial University.",
+            "images": ["images/sharenotes-2.png", "images/sharenotes.jpg", "images/sharenotes-3.jpg", "images/sharenotes-4.jpg"],
+			"featured": true
+        },
+		{
+			"title": "Automated Resume Screening",
+			"startDate": "2021-10-01",
+			"endDate": "2021-12-01",
+			"websiteUrl": "",
+			"githubUrl": "https://github.com/shawonibnkamal/automated-resume-screening",
+			"description": "Automated Resume Screening application using Natural Language Processing and Machine Learning techniques to parse and evaluate resumes according to best fit to job description. The application is written is python and make use of several libraries such as nltk, scikit-learn, pandas, numpy etc.",
+			"images": ["images/tely10treemap.png"]
+		},
+		{
+			"title": "Tely10 Success Evaluation",
+			"startDate": "2021-10-01",
+			"endDate": "2021-12-01",
+			"websiteUrl": "",
+			"githubUrl": "",
+			"description": "As part of 2 person group project, we figured out how successful Tely10 has been in the past 10 years identifying different goals and subgoals from the dataset, and by creating visualizations that address them. Our visualizations included an interactive bar plot to address gender diversity, a violin plot to address gun time trend, treemap to address location diversity and an interactive exploratory venn diagram for returning racers trend. Techonologies used were python and several libraries including matplotlib, pandas, seaborn, squarify and ipywidgets.",
+			"images": ["images/tely10treemap.png"]
+		},
+		{
+			"title": "Dudeforce",
+			"startDate": "2021-09-01",
+			"endDate": "2021-12-31",
+			"websiteUrl": "",
+			"githubUrl": "",
+			"description": "A 2D game-engine with a level editor built by a group 4 for final project in Game Programming course using SFML and C++.  The game built on it in Dudeforce which is a side-scrolling shooting game. It makes use of shaders, lighting, inventory, multiple camera-views, overworld map and much more.",
+			"images": [],
+			"youtubeUrl": "https://www.youtube.com/watch?v=ZN7RR9sZyLc"
+		},
+		{
+            "title": "Portfalio",
+            "startDate": "2020-10-01",
+            "endDate": "2021-08-31",
+            "description": "Dynamic portfolio management website where user can register accounts and easily setup their portfolio. Built using REACT, Laravel and MySQL in REST API format.",
+            "images": ["images/portfalio.jpg"]
+        },
+        {
+            "title": "Starcraft Competitive AI bot",
+            "startDate": "2021-01-01",
+            "endDate": "2021-04-30",
+            "description": "Plays the game of Starcraft: Broodwar as Protoss race using real time Artificial Intelligence decisions using C++ and BWAPI. Beats the built-in AI of the game using \"Zealot Rush\" strategy that includes scouting, appropriate building placement, proper build order, and timing attacks.",
+            "images": ["images/starcraft.jpg", "images/starcraft.gif"],
+            "youtubeUrl": "https://www.youtube.com/watch?fbclid=IwAR2IoWzLIwAm_sieyDHrSUuWycMaNgmekSkyI2e1QFqQy6PVoKYDr4e3KBc&v=15BO6H5vsY4&feature=youtu.be"
+        },
+        {
+            "title": "Space Shooter 2D",
+            "startDate": "2021-09-01",
+            "endDate": "2021-10-31",
+            "description": "Built using SFML and C++.",
+            "images": ["images/spaceshooter.gif"]
+        },
+        {
+            "title": "Data Visualization of Yaffle Researchers and Contributers",
+            "startDate": "2021-05-01",
+            "endDate": "2021-05-31",
+            "description": "Visualization of Yaffle researchers and contributors using D3.js and the projects they collaborated on.",
+            "images": ["images/d3-data-visualization.jpg"]
+        },
+        {
+            "title": "Ecommerce Web Scraper",
+            "startDate": "2021-03-01",
+            "endDate": "2021-04-30",
+            "githubUrl": "https://github.com/shawonibnkamal/ecommerce-webscraper",
+            "description": "An ecommerce web scraper namely Best Buy and Walmart. It retrieves product data from the data given the url, and tracks the stock information, price changes and availibility on each update. Built as part of a group project of 3 using node.js and mongoDB.",
+            "images": ["images/webscraper.jpg"]
+        },
+        {
+            "title": "Noise Reduction Filters",
+            "startDate": "2021-01-01",
+            "endDate": "2021-04-30",
+            "description": "Demonstrating Mean filter, Salt and pepper filter and Gaussian blur using Python.",
+            "images": ["images/image-filter.jpg"]
+        },
+        {
+            "title": "Game AI: Procedural Content Generation",
+            "startDate": "2021-01-01",
+            "endDate": "2021-02-28",
+            "description": "Uses Random Number Generation to generate a star system that consists of randomized stars, planets, moon each with a unique position, temperature, size, and name. Generated terrain of planets to show land, rocks, and water using Cellular Automata built using C++, SFML, and Visual Studio.",
+            "images": ["images/star-system.jpg", "images/cellular-automata-terrain.jpg"]
+        },
+		{
+            "title": "Distance Map Grid and Vector Field",
+            "startDate": "2021-01-01",
+            "endDate": "2021-01-31",
+            "description": "Calculates the distance of each grid from the target and then uses it to compute a vector field to point to the direction.",
+            "images": ["images/vector-field.jpg"]
+        },
+        {
+            "title": "Blokus Game",
+            "startDate": "2019-09-01",
+            "endDate": "2019-12-31",
+            "description": "Game of Blokus built using Java Swing. Allows users to select a sequence of blocks, rotate it and place it on the grid. User can also turn on visual aid toggle if they are colorblind.",
+            "images": ["images/Blokus.JPG"]
+        },
+        {
+            "title": "Checkers AI",
+            "startDate": "2019-09-01",
+            "endDate": "2019-12-31",
+            "githubUrl": "https://github.com/shawonibnkamal/checkers-ai",
+            "description": "Game of checkers built using D3.js and AI implemented using mini-max algorithm.",
+            "images": ["images/checkers.gif"]
+        },
+        {
+            "title": "Reinforcement Learning Path Finder",
+            "startDate": "2019-09-01",
+            "endDate": "2019-12-31",
+            "description": "Finds the closest path between each nodes using Q-Learning. Built using Javascript.",
+            "images": ["images/reinforcement-learning.jpg"]
+        },
+        {
+            "title": "Chomp Game",
+            "startDate": "2019-09-01",
+            "endDate": "2019-09-30",
+            "images": ["images/Chomp.JPG"]
+        },
+		{
+            "title": "Connect-4 Game AI",
+            "startDate": "2019-09-01",
+            "endDate": "2019-12-31",
+            "description": "Built the AI for Connect 4 game using Mini-Max algorithm.",
+            "images": ["images/connect-4.jpg"]
+        },
+        {
+            "title": "Game AI: Tron",
+            "startDate": "2021-01-01",
+            "endDate": "2021-01-31",
+            "description": "Tron game AI bot built using C++ and SFML.",
+            "images": ["images/tron.jpg"]
+        },
+        {
+            "title": "Multi-armed bandit - Reinforcement Learning",
+            "startDate": "2019-09-01",
+            "endDate": "2019-12-31",
+            "description": "Implemented reinforcement learning to maximize reward in the multi-armed bandit problem.",
+            "images": ["images/bandit.jpg"]
+        },
+        {
+            "title": "Quote-generator",
+            "startDate": "2017-07-01",
+            "endDate": "2017-08-31",
+            "description": "A JS application that retrieves random quotes by famous people.",
+            "images": ["images/quote-generator.jpg"]
+        },
+        {
+            "title": "WikiViewer",
+            "startDate": "2017-07-01",
+            "endDate": "2017-08-31",
+            "description": "A JS application that uses the wikipedia search api to retrieve articles based on keywords.",
+            "images": ["images/wiki-viewer.jpg"]
+        },
+        {
+            "title": "Weather App",
+            "startDate": "2017-07-01",
+            "endDate": "2017-08-31",
+            "description": "A JS application that retrieves weather information based on user's location.",
+            "images": ["images/weather-app.jpg"]
+        },
+		{
+            "title": "Twitch Streamers",
+            "startDate": "2017-07-01",
+            "endDate": "2017-08-31",
+            "description": "A JS application that uses the twitch api to retrieve information of my favorite twitch streamers.",
+            "images": ["images/twitch-api.jpg"]
+        },
+        {
+            "title": "Shawon Notes",
+            "startDate": "2013-12-01",
+            "websiteUrl": "https://shawonnotes.com",
+			"githubUrl": "https://github.com/shawonibnkamal/shawonnotes",
+            "description": "The first website I built where I shared my own study materials of IGCSE and IAL to help fellow students. It reaches over 100k page views each month and is the most popular IGCSE/IAL revision website in Bangladesh.",
+            "images": ["images/shawonnotes-2.jpg"],
+			"featured": true
+        }
+	]
+}
