@@ -5,7 +5,7 @@
 			"startDate": "2023-01-01",
 			"websiteUrl": "https://doclin.dev",
 			"description": "Doclin is a real-time commenting and discussion extension for VS Code.",
-			"images": ["https://github.com/doclin-dev/landingpage-build/blob/main/assets/doclinDemo.gif?raw=true", "https://github.com/doclin-dev/landingpage-build/blob/main/assets/doclinDemo.gif?raw=true"],
+			"images": ["https://github.com/doclin-dev/landingpage-build/blob/main/assets/doclinDemo.gif?raw=true"],
 			"featured": true
 		},
 		{
