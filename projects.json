@@ -36,7 +36,7 @@
             "title": "Nature's Palette Pre-validator",
             "startDate": "2022-01-01",
             "endDate": "2022-05-01",
-            "websiteUrl": "https://github.com/shawonibnkamal/np-prevalidator",
+            "githubUrl": "https://github.com/shawonibnkamal/np-prevalidator",
             "description": "This is cross-platform offline data validation and cleaning tool built to help prepare submissions to Nature's Pallete.",
             "images": ["images/np-prevalidator/np-prevalidator-1.png", "images/np-prevalidator/np-prevalidator-2.png", "images/np-prevalidator/np-prevalidator-3.png"]
         },
