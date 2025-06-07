@@ -5,8 +5,14 @@
 			"startDate": "2023-09-01",
 			"websiteUrl": "https://doclin.dev",
             "githubUrl": "https://github.com/doclin-dev/doclin",
-			"description": "Doclin is a new way of building documentation for software engineers. Doclin brings the power of QnA in IDE and discuss code seamlessly.",
-			"images": ["https://github.com/doclin-dev/landingpage-build/blob/main/assets/doclinDemo.gif?raw=true"],
+			"description": "Doclin is an open-source and self-hosted alternative to Stack Overflow that allows developers to ask code questions and provide answers directly from their IDE.",
+			"images": [
+                "images/doclin/doclin-1.png", 
+                "images/doclin/doclin-2.png", 
+                "images/doclin/doclin-3.png", 
+                "images/doclin/doclin-10.png",
+                "images/doclin/doclin-11.png"
+            ],
 			"featured": true
 		},
 		{
@@ -15,8 +21,7 @@
 			"endDate": "2022-05-01",
 			"websiteUrl": "https://yaffle.ca",
 			"description": "Rebuilt Yaffle as part of Powered by b project. Yaffle is a collaboration site for researchers and project funders.",
-			"images": ["images/yaffle.jpg"],
-			"featured": true
+			"images": ["images/yaffle.jpg"]
 		},
 		{
             "title": "Share Notes",
@@ -26,6 +31,14 @@
             "description": "The successor of Shawon Notes which is an educational resource platform targeting the British curriculum of high schools reaching over 100k+ monthly page views. <br/> Built in REST API format using React and Laravel to ensure scalability and modularity as I continue to add more features and scale up the project. The workflow is managed through github actions and docker and deployed in Linux instances in AWS, and the files are managed through S3 bucket. <br/> Users can registers their own account, customize their profile and create courses and upload materials as they wish. They can create directories, upload videos, or any kind of documents. Received Spark Fund for getting started with this project from Memorial University.",
             "images": ["images/sharenotes-2.png", "images/sharenotes.jpg", "images/sharenotes-3.jpg", "images/sharenotes-4.jpg"],
 			"featured": true
+        },
+        {
+            "title": "Nature's Palette Pre-validator",
+            "startDate": "2022-01-01",
+            "endDate": "2022-05-01",
+            "websiteUrl": "https://github.com/shawonibnkamal/np-prevalidator",
+            "description": "This is cross-platform offline data validation and cleaning tool built to help prepare submissions to Nature's Pallete.",
+            "images": ["images/np-prevalidator/np-prevalidator-1.png", "images/np-prevalidator/np-prevalidator-2.png", "images/np-prevalidator/np-prevalidator-3.png"]
         },
 		{
 			"title": "Automated Resume Screening",
