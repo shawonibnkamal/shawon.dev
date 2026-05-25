@@ -1,11 +1,32 @@
 {
 	"projects": [
 		{
+			"title": "Succession AI",
+			"startDate": "2025-01-01",
+			"websiteUrl": "https://successionai.org",
+			"description": "AI-powered M&A platform for founder-led businesses. Succession AI helps owners understand what their business is worth, prepare for an exit, and connect with the right buyers.",
+			"images": [],
+			"mentions": [
+				{
+					"label": "New Ontario Program Helps Ontario Small Business Owners Plan for Succession",
+					"source": "Kingston Economic Development",
+					"url": "https://www.investkingston.ca/new-ontario-program-helps-ontario-small-business-owners-plan-for-succession/"
+				},
+				{
+					"label": "Ontario launches new program to help small businesses survive ownership change",
+					"source": "Kingston Daily",
+					"url": "https://www.kingstondaily.ca/news/the-kingston-top-3/ontario-launches-new-program-to-help-small-businesses-survive-ownership-change/"
+				}
+			],
+			"featured": true
+		},
+		{
 			"title": "Doclin",
 			"startDate": "2023-09-01",
+			"endDate": "2024-09-01",
 			"websiteUrl": "https://doclin.dev",
             "githubUrl": "https://github.com/doclin-dev/doclin",
-			"description": "Doclin is an open-source and self-hosted alternative to Stack Overflow that allows developers to ask code questions and provide answers directly from their IDE.",
+			"description": "Doclin was an open-source and self-hosted alternative to Stack Overflow that allowed developers to ask code questions and provide answers directly from their IDE.",
 			"images": [
                 "images/doclin/doclin-1.png", 
                 "images/doclin/doclin-2.png", 
@@ -13,6 +34,38 @@
                 "images/doclin/doclin-10.png",
                 "images/doclin/doclin-11.png"
             ],
+			"mentions": [
+				{
+					"label": "Mel Woodward Cup invests $40,000 in student entrepreneurs",
+					"source": "Memorial University",
+					"url": "https://www.mun.ca/computerscience/news-articles/mel-woodward-cup-invests-40000-in-student-entrepreneurs.php"
+				},
+				{
+					"label": "Student Entrepreneurs Recognized at 2023 Mel Woodward Cup",
+					"source": "VOCM",
+					"url": "https://vocm.com/2023/03/26/student-entrepreneurs-recognized-at-2023-mel-woodward-cup/"
+				},
+				{
+					"label": "Notch Embedded Wins Woodward Cup",
+					"source": "Entrevestor",
+					"url": "https://entrevestor.com/home/entry/notch-embedded-wins-woodward-cup"
+				},
+				{
+					"label": "Pureflow Recognized by Genesis",
+					"source": "Entrevestor",
+					"url": "https://entrevestor.com/blog/pureflow-recognized-by-genesis"
+				},
+				{
+					"label": "Doclin: Real-time Code Discussion & Automatic Documentation Creation Tool",
+					"source": "tyy.AI Tools",
+					"url": "https://tyy.ai/doclin/"
+				},
+				{
+					"label": "Doclin: Reviews, Features, Pricing, Guides, and Alternatives",
+					"source": "AIPURE",
+					"url": "https://aipure.ai/products/doclin"
+				}
+			],
 			"featured": true
 		},
 		{
@@ -210,6 +263,12 @@
 			"githubUrl": "https://github.com/shawonibnkamal/shawonnotes",
             "description": "The first website I built where I shared my own study materials of IGCSE and IAL to help fellow students. It reaches over 100k page views each month and is the most popular IGCSE/IAL revision website in Bangladesh.",
             "images": ["images/shawonnotes-2.jpg"],
+			"links": [
+				{
+					"label": "Chemistry note",
+					"url": "https://beta.shawonnotes.com/pdfs/igcse-chemistry-revision-note.pdf"
+				}
+			],
 			"featured": true
         }
 	]
