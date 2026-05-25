@@ -5,8 +5,14 @@ h2,
 body,
 li,
 a,
-p {
+p,
+span,
+button {
   font-family: "Roboto", sans-serif;
+}
+
+body {
+  color: rgb(78, 78, 78);
 }
 
 h1 {
@@ -20,6 +26,7 @@ h1 {
 h2 {
   color: rgb(78, 78, 78);
   font-size: 25px;
+  line-height: 1.3;
 }
 
 h3 {
@@ -27,12 +34,18 @@ h3 {
   font-size: 18px;
 }
 
+a {
+  overflow-wrap: anywhere;
+}
+
 .introduction {
   min-height: 100vh;
+  padding: 40px 0;
 }
 
 .introduction .row {
   margin: 0 auto;
+  max-width: 100%;
   width: 100%;
 }
 
@@ -51,25 +64,49 @@ h3 {
   object-fit: cover;
 }
 
+.intro-copy {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 720px;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+.intro-copy-secondary {
+  color: rgb(104, 104, 104);
+  margin-top: 14px;
+}
+
 .links {
-  margin-left: -38px;
-  margin-top: 50px;
+  list-style: none;
+  margin-left: 0;
+  margin-top: 32px;
+  padding-left: 0;
 }
 
 .links li {
-  display: inline;
+  display: inline-block;
   font-size: 30px;
+  list-style: none;
+  vertical-align: middle;
+  margin-right: 6px;
+  margin-bottom: 12px;
 }
 
-.links a {
+.links a:not(.btn) {
   color: inherit;
   padding: 5px;
 }
 
-.links a:hover {
+.links a:not(.btn):hover {
   background-color: rgb(218, 218, 218);
   border-radius: 5px;
   text-decoration: none;
+}
+
+.links .hero-button {
+  margin-left: 6px;
+  vertical-align: 5px;
 }
 
 a.dark-link:hover {
@@ -79,16 +116,52 @@ a.dark-link:hover {
 .info-list {
   list-style: none;
   margin-left: -38px;
-  margin-top: 30px;
+  margin-top: 26px;
+  margin-bottom: 0;
+}
+
+.info-list li {
+  margin-bottom: 8px;
 }
 
 .info-list i {
   margin-right: 15px;
 }
 
+.modal-section-title {
+  color: rgb(78, 78, 78);
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
 @media only screen and (max-width: 600px) {
   h1 {
-    font-size: 40px;
+    font-size: 36px;
+  }
+
+  .introduction {
+    padding: 28px 0;
+  }
+
+  .introduction .row,
+  .introduction .col-md-4,
+  .introduction .col-md-8 {
+    display: block;
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .portrait-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
+  }
+
+  .intro-copy {
+    font-size: 16px;
   }
 }
 
@@ -119,6 +192,79 @@ a.dark-link:hover {
   margin-bottom: 5px;
   border-radius: 5px;
   border: 1px solid #ccc;
+}
+
+.project-links {
+  margin-bottom: 12px;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 12px;
+  margin-bottom: 6px;
+}
+
+.project-mentions {
+  margin: 20px 0 24px;
+}
+
+.project-mentions h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.project-mentions ul {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project-mentions li {
+  background: rgb(250, 250, 250);
+  border: 1px solid rgb(226, 229, 233);
+  border-radius: 8px;
+  margin: 0;
+  padding: 12px 14px;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.project-mentions li:hover {
+  border-color: rgb(194, 201, 210);
+  box-shadow: 0 8px 20px rgba(32, 36, 40, 0.08);
+  transform: translateY(-1px);
+}
+
+.project-mentions a {
+  color: rgb(40, 79, 127);
+  display: block;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.project-mentions a:hover {
+  color: rgb(23, 55, 95);
+  text-decoration: none;
+}
+
+.project-mentions span {
+  color: rgb(118, 118, 118);
+  display: block;
+  font-size: 14px;
+  margin-left: 0;
+  margin-top: 5px;
+}
+
+.project-mentions p {
+  color: rgb(92, 92, 92);
+  font-size: 14px;
+  line-height: 1.45;
+  margin-bottom: 0;
+  margin-top: 2px;
 }
 
 .modal-dialog {
